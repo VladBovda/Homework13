@@ -1,11 +1,23 @@
-# Homework13
 
-Running the Project
-1. Start PostgreSQL
 
-Make sure your PostgreSQL server is running.
+## Running the Project
 
-2. Run database migrations
+### Run migrations
+
+```bash
 npx typeorm-ts-node-commonjs migration:run -d src/data-source.ts
-3. Start the application
+```
+
+### Start the app
+
+```bash
 npm run start
+```
+
+---
+
+
+├── entities/       # Database entities
+├── migrations/     # TypeORM migrations
+├──
+```
