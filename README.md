@@ -1,23 +1,16 @@
+## Quick Start
 
+Follow these steps to get the project up and running on your local machine.
 
-## Running the Project
+### 1. Database Setup
+Ensure that your **PostgreSQL** server is active and you have created a database for the project.
 
-### Run migrations
-
+### 2. Run Migrations
+Execute the following command to set up your database schema:
 ```bash
 npx typeorm-ts-node-commonjs migration:run -d src/data-source.ts
 ```
-
-### Start the app
+###3. Launch the app
 
 ```bash
 npm run start
-```
-
----
-
-
-├── entities/       # Database entities
-├── migrations/     # TypeORM migrations
-├──
-```
